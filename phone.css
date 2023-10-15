@@ -1,0 +1,29 @@
+/* navition*/
+
+#navbar {
+    flex-direction: column;
+    height: 200px;
+}
+
+.login {
+  position: absolute;
+  right: 20px;
+}
+
+#navbar ul li a {
+    font-size: 1.0rem;
+}
+
+#navbar input {
+    height: 40px;
+    margin: 3px 6px;
+    width: 300px;
+    border-radius: 30px;
+    font-family: "Young Serif", serif;
+    font-size: 1.4rem;
+    padding: 1px 22px;
+  }
+
+  #navbar ul {
+    margin-bottom: 18px ;
+  }

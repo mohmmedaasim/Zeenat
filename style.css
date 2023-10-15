@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&family=Young+Serif&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Young Serif", serif;
+}
+
+
+
+/* css variables */
+
+:root {
+  --navbar-height: 59px;
+}
+
+/* navigation */
+#navbar input {
+  height: 40px;
+  margin: 3px 60px;
+  width: 400px;
+  border-radius: 30px;
+  font-family: "Young Serif", serif;
+  font-size: 1.4rem;
+  padding: 1px 22px;
+}
+
+
+
+#logo {
+  margin: 10px 32px;
+  height: 70px;
+  width: 10px;
+  display: inline;
+}
+/* navigation bar */
+
+#navbar {
+   align-items: center;
+  display: flex;
+  /* flex-direction: column; */
+  height: 180px;
+  background-color: yellow;
+  font-size: rem;
+
+}
+
+
+#navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+  color: black;
+}
+
+#navbar ul {
+  display: flex;
+  margin: 0px -24px
+}
+
+#navbar ul li a {
+  padding: 3px 23px;
+  border-radius: 20px;
+  color: blue;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "Young Serif", serif;
+  transition: 0.7s;
+}
+
+#navbar ul li a:hover {
+  color: rgb(255, 255, 255);
+  background-color: blue;
+  
+}
+
+.social img {
+  margin: 0px 7px;
+}
+
+/* body style */
+
+#home::before {
+
+      content: "";
+      position: absolute;
+      background:url(bg/bg1.jpg) no-repeat center center/cover;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      opacity: 0.4;
+  }
+  
+
+
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+#home h-primery {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Young Serif', serif;
+  font-size: 1.5rem;
+
+}
+
+#home a {
+
+  margin: 30px 0px;
+  color: rgb(0, 0, 0);
+  /* background-color: yellow; */
+  padding: 6px;
+  border-radius: 100px;
+}
+
+#home a:hover {
+  background-color: rgb(248, 244, 0);
+  color: rgb(4, 0, 255);
+  /* padding: 15px; */
+  /* border-radius: 100px; */
+}
